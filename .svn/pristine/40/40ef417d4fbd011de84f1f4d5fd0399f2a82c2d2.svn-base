@@ -1,0 +1,68 @@
+package br.com.compremais.model;
+
+public class Livro {
+	private String titulo;
+	private String editora;
+	private String idioma;
+	private String autor;
+	private String isbn;
+	private String descricao;
+	private String srcImg;
+	private int numPaginas;
+	private double valor;
+	
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public String getEditora() {
+		return editora;
+	}
+	public void setEditora(String editora) {
+		this.editora = editora;
+	}
+	public String getIdioma() {
+		return idioma;
+	}
+	public void setIdioma(String idioma) {
+		this.idioma = idioma;
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+	public String getIsbn() {
+		return isbn;
+	}
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+	public String getDescricao() {
+		return descricao;
+	}
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	public String getSrcImg() {
+		return srcImg;
+	}
+	public void setSrcImg(String srcImg) {
+		this.srcImg = srcImg;
+	}
+	public int getNumPaginas() {
+		return numPaginas;
+	}
+	public void setNumPaginas(int numPaginas) {
+		this.numPaginas = numPaginas;
+	}
+	public double getValor() {
+		return valor;
+	}
+	public void setValor(double valor) {
+		this.valor = valor;
+	}
+}

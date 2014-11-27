@@ -1,0 +1,82 @@
+package br.com.compremais.model;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.text.DecimalFormat;
+
+public class CarrinhoDeCompras {
+	
+	private List<ItemCarrinho> itensCarrinho;
+
+	public CarrinhoDeCompras() {
+		this.itensCarrinho = new ArrayList<ItemCarrinho>();
+	}
+
+	public List<ItemCarrinho> getItensCarrinho() {
+		return itensCarrinho;
+	}
+	
+	public String addItem(Livro livro){
+		String msg = null;
+		if(contemItem(livro)){
+			for (ItemCarrinho item : itensCarrinho) {
+				if(item.getLivro().getIsbn().equals(livro.getIsbn())){
+					item.addQuantidade();
+					msg = "Você adicionou mais um Livro: "+ item.getLivro().getTitulo();
+					break;
+				}
+			}
+		}else{
+			itensCarrinho.add(new ItemCarrinho(livro));
+			msg = "O Livro: "+ livro.getTitulo() +" foi adicionado ao carrinho!";
+		}
+		return msg;
+	}
+	
+	public String removeItem(Livro livro){
+		String msg= null;
+		for (ItemCarrinho item : itensCarrinho) {
+			if(item.getLivro().getIsbn().equals(livro.getIsbn())){
+				itensCarrinho.remove(item);
+				msg = "O Livro: "+ livro.getTitulo() +" foi removido do carrinho!";
+				break;
+			}
+		}
+		return msg;
+	}
+	
+	public String removeAll() {
+		String msg = null;
+		itensCarrinho.clear();
+		msg = "Todos os itens foram removidos do carrinho!";
+		return msg;
+	}
+	
+	public boolean contemItem(Livro livro) {
+		boolean jaTem = false;
+		for (ItemCarrinho item : itensCarrinho) {
+			if(item.getLivro().getIsbn().equals(livro.getIsbn())){
+				jaTem = true;
+				break;
+			}
+		}
+		return jaTem;
+	}
+	
+	public String getValorTotal(){
+		double valorTotal = 0;
+		DecimalFormat df = new DecimalFormat("#,###.##");
+		for (ItemCarrinho item : itensCarrinho) {
+			valorTotal += item.getLivro().getValor() * item.getQuantidade();
+		}
+		return df.format(valorTotal);
+	}
+	
+	public int getTotalItens(){
+		int total = 0;
+		for (ItemCarrinho item : itensCarrinho) {
+			total += item.getQuantidade();
+		}
+		return total;
+	}
+}

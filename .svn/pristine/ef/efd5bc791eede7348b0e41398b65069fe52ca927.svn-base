@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Compre Mais | Web Store</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+	<link rel="shortcut icon" href="img/compre_mais_fav.png" type="image/x-icon">
+	<script language="javascript" type="text/javascript" src="js/jquery-1.8.2.js"></script>
+	<script language="javascript" type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="header_wrapper">
+	    <div id="header" class="inner">
+	           <h1>
+	               <a href="." alt="Compre Mais Web Store">Compre Mais Web Store</a>
+	           </h1>
+	           <div class="slogan">
+	               <p>A loja do estudante de TI</p>
+	           </div>
+	           <ul class="menu">
+	               <li><a href="#" rel="nofollow"><span class="icon cursos"></span>Produtos</a></li>
+	               <li><a href="#" rel="nofollow"><span class="icon store"></span>STORE</a></li>
+	           </ul>
+	    </div>
+	</div>
+	<div id="menu_wrapper"></div> 
+	<div id="inner" class="inner">
+    	<div id="content_wrapper">
+			<div id="content">
+				<div class="title"></div>
+				<div class="entry">
+					<div id="default_products_page_container" class="wrap wpsc_container">
+						<div class="wpsc_default_product_list">
+							<div class="default_product_display product_view_9 ebooks-de-ingles group">
+								<h2 class="prodtitle entry-title">
+									<a class="wpsc_product_title">Use a Cabeça! Servlets & JSP</a>
+								</h2>
+								<div class="imagecol" style="width: 110;" id="imagecol_9">
+									<a rel="Use a Cabeça! Servlets & JSP" class="preview_link" href="#">
+										<img class="product_image" id="product_image_9" alt="Use a Cabeça! Servlets & JSP" title="Use a Cabeça! Servlets & JSP" src="img/servlets_jsp.png">
+									</a>
+								</div><!--close imagecol-->
+								<div class="productcol" style="margin-left: 130px;">
+									<div class="wpsc_description">
+										<p>
+											<strong>ISBN</strong>&nbsp;9788576082941<br>
+											<strong>Idioma:</strong>&nbsp;Português<br>
+											<strong>Páginas:</strong>&nbsp;912 pág.<br>
+											<strong>Editora:</strong>&nbsp;Alta Books<br>
+											<strong>Autor:</strong>&nbsp;Kathy Sierra & Bryan Basham
+										</p>
+									</div><!--close wpsc_description-->
+									<div class="additional_description_container">
+										<img class="additional_description_button" src="img/icon_window_expand.gif" alt="Additional Description">
+										<a href="#" class="additional_description_link">Mais Detalhes</a>
+										<div class="additional_description">
+											<p>
+												<strong>Descrição:</strong>&nbsp;<em>A preparação e estudo para o novo exame do J2EE 1.5, para a certificação Web
+												Component Developer (SCWCD). Use a Cabeça Servlets & JSP não fornece apenas uma
+												lista de assunto para memorização, ele guiará sua mente ao entendimento de fato
+												do assunto a ser estutado. Você ira aprender diretamente o que é servlets e JSPs
+												para que sejam entendidos de forma fãcil e rápida. Usando este livro você terá
+												idéia do novo esquema do exame mock, criado especialmente para similar a inteligência do teste.</em>
+											</p>
+										</div><!--close additional_description-->
+									</div><!--close additional_description_container-->
+									<form class="product_form" action="#" method="post" name="9788576082941" id="9788576082941">
+										<!-- THIS IS THE QUANTITY OPTION MUST BE ENABLED FROM ADMIN SETTINGS -->
+										<div class="wpsc_product_price">
+											<p class="pricedisplay product_9">Preço: <span id="product_price_9" class="currentprice pricedisplay">R$ 112,90</span></p>
+											<!-- multi currency code -->
+										</div><!--close wpsc_product_price-->
+										<input type="hidden" value="add_to_cart" name="wpsc_ajax_action">
+										<input type="hidden" value="9788576082941" name="product_id">
+										<!-- END OF QUANTITY OPTION -->
+										<div class="wpsc_buy_button_container">
+											<div class="wpsc_loading_animation">
+												<img title="Loading" alt="Loading" src="img/indicator.gif"> Atualizando carrinho…
+											</div><!--close wpsc_loading_animation-->
+											<input type="submit" value="Adicionar ao Carrinho" name="Buy" class="wpsc_buy_button" id="product_9_submit_button">
+										</div><!--close wpsc_buy_button_container-->
+										<div class="entry-utility wpsc_product_utility"></div>
+									</form><!--close product_form-->
+								</div><!--close productcol-->
+							</div>
+							<!--close default_product_display-->
+							<div class="default_product_display product_view_13 ebooks-de-ingles group">
+								<h2 class="prodtitle entry-title">
+									<a class="wpsc_product_title">SCJP Sun Certified Programmer For Java 6</a>
+								</h2>
+								<div class="imagecol" style="width: 110;" id="imagecol_13">
+									<a rel="SCJP Sun Certified Programmer For Java 6" class="preview_link" href="#">
+										<img class="product_image" id="product_image_13" alt="SCJP Sun Certified Programmer For Java 6" title="SCJP Sun Certified Programmer For Java 6" src="img/scjp.png">
+									</a>
+								</div><!--close imagecol-->
+								<div class="productcol" style="margin-left: 130px;">
+									<div class="wpsc_description">
+										<p>
+											<strong>ISBN</strong>&nbsp;0071591060<br>
+											<strong>Idioma:</strong>&nbsp;Inglês<br> 
+											<strong>Páginas:</strong>&nbsp;864 pág.<br>
+											<strong>Editora:</strong>&nbsp;Mcgraw Hill<br>
+											<strong>Autor:</strong>&nbsp;Bert Bates, Kathy Sierra
+										</p>
+									</div><!--close wpsc_description-->
+									<div class="additional_description_container">
+										<img class="additional_description_button" src="img/icon_window_expand.gif" alt="Additional Description">
+										<a href="#" class="additional_description_link">Mais Detalhes</a>
+										<div class="additional_description">
+											<p>
+												<strong>Descrição:</strong>&nbsp;<em>The Best Fully Integrated Study System Available--Written by the Lead Developers "
+												of Exam 310-065 With hundreds of practice questions and hands-on exercises, SCJP Sun
+												Certified Programmer for Java 6 Study Guide covers what you need to know--and shows
+												you how to prepare--for this challenging exam. 100% complete coverage of all
+												official objectives for exam 310-065 Exam Objective Highlights in every chapter
+												point out certification objectives to ensure you're focused on passing the exam
+												Exam Watch sections in every chapter highlight key exam topics covered Simulated
+												exam questions match the format, tone, topics, and difficulty of the real exam
+												Covers all SCJP exam topics, including: Declarations and Access Control ·
+												Object Orientation · Assignments · Operators · Flow Control, Exceptions, and
+												Assertions · Strings, I/O, Formatting, and Parsing · Generics and Collections ·
+												Inner Classes · Threads · Development</em>
+											</p>
+										</div><!--close additional_description-->
+									</div><!--close additional_description_container-->
+									<form class="product_form" action="#" method="post" name="0071591060" id="0071591060">
+										<!-- THIS IS THE QUANTITY OPTION MUST BE ENABLED FROM ADMIN SETTINGS -->
+										<div class="wpsc_product_price">
+											<p class="pricedisplay product_13">Preço: <span id="product_price_13" class="currentprice pricedisplay">R$ 142,90</span></p>
+											<!-- multi currency code -->
+										</div><!--close wpsc_product_price-->
+										<input type="hidden" value="add_to_cart" name="wpsc_ajax_action">
+										<input type="hidden" value="0071591060" name="product_id">
+										<!-- END OF QUANTITY OPTION -->
+										<div class="wpsc_buy_button_container">
+											<div class="wpsc_loading_animation">
+												<img title="Loading" alt="Loading" src="img/indicator.gif"> Atualizando carrinho…
+											</div><!--close wpsc_loading_animation-->
+											<input type="submit" value="Adicionar ao Carrinho" name="Buy" class="wpsc_buy_button" id="product_13_submit_button">
+										</div><!--close wpsc_buy_button_container-->
+										<div class="entry-utility wpsc_product_utility"></div>
+									</form><!--close product_form-->
+								</div><!--close productcol-->
+							</div>
+							<!--close default_product_display-->
+							<div class="default_product_display product_view_17 ebooks-de-ingles group">
+								<h2 class="prodtitle entry-title">
+									<a class="wpsc_product_title">Certificação Linux LPI</a>
+								</h2>
+								<div class="imagecol" style="width: 110;" id="imagecol_17">
+									<a rel="Certificação Linux LPI" class="preview_link" href="#">
+										<img class="product_image" id="product_image_17" alt="Certificação Linux LPI" title="Certificação Linux LPI" src="img/lpic.png">
+									</a>
+								</div><!--close imagecol-->
+								<div class="productcol" style="margin-left: 130px;">
+									<div class="wpsc_description">
+										<p>
+											<strong>ISBN</strong>&nbsp;9788576086444<br>
+											<strong>Idioma:</strong>&nbsp;Português<br> 
+											<strong>Páginas:</strong>&nbsp;520 pág.<br>
+											<strong>Editora:</strong>&nbsp;Alta Books<br>
+											<strong>Autor:</strong>&nbsp;Adam Haeder, Stephen Addison Schneiter, Bruno Gomes Pessanha
+										</p>
+									</div><!--close wpsc_description-->
+									<div class="additional_description_container">
+										<img class="additional_description_button" src="img/icon_window_expand.gif" alt="Additional Description">
+										<a href="#" class="additional_description_link">Mais Detalhes</a>
+										<div class="additional_description">
+											<p>
+												<strong>Descrição:</strong>&nbsp;<em>A certificação de profissionais é uma tradição histórica em muitos
+												campos, incluindo a medicina e o direito. À medida que pequenos sistemas de computadores e redes foram se 
+												proliferando ao longo da última década, a Novell e a Microsoft começaram a produzir exames de certificação, 
+												os quais se tornaram extremamente populares para as suas respectivas tecnologias de sistemas operacionais e 
+												de rede. Esses dois programas são frequentemente citados como os responsáveis pela popularização do mercado 
+												de certificações para produtos que, anteriormente, eram altamente especializados e relativamente raros. 
+												Esses programas se tornaram tão populares que uma enorme indústria de treinamento e preparação se formou
+												para atender a um fluxo constante de novos candidatos às certificações.
+												A implantação do Linux continua aumentando assim como a demanda por administradores do sistema Linux 
+												qualificados e certificados. Se você está a procura de uma certificação do Linux Professional Institute (LPI)
+												focado no mercado, este guia atualizado o ajudará a se preparar para os, tecnicamente desafiadores, 
+												exames LPIC Nível 1 Exames 101 e 102.</em>
+											</p>
+										</div><!--close additional_description-->
+									</div><!--close additional_description_container-->
+									<form class="product_form" action="#" method="post" name="9788576086444" id="9788576086444">
+										<!-- THIS IS THE QUANTITY OPTION MUST BE ENABLED FROM ADMIN SETTINGS -->
+										<div class="wpsc_product_price">
+											<p class="pricedisplay product_17">Preço: <span id="product_price_17" class="currentprice pricedisplay">R$ 89,90</span></p>
+											<!-- multi currency code -->
+										</div><!--close wpsc_product_price-->
+										<input type="hidden" value="add_to_cart" name="wpsc_ajax_action">
+										<input type="hidden" value="0071591060" name="product_id">
+										<!-- END OF QUANTITY OPTION -->
+										<div class="wpsc_buy_button_container">
+											<div class="wpsc_loading_animation">
+												<img title="Loading" alt="Loading" src="img/indicator.gif"> Atualizando carrinho…
+											</div><!--close wpsc_loading_animation-->
+											<input type="submit" value="Adicionar ao Carrinho" name="Buy" class="wpsc_buy_button" id="product_17_submit_button">
+										</div><!--close wpsc_buy_button_container-->
+										<div class="entry-utility wpsc_product_utility"></div>
+									</form><!--close product_form-->
+								</div><!--close productcol-->
+							</div>
+							<!--close default_product_display-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="sidebar">
+			<div id="wpsc_shopping_cart-4" class="widget widget_wpsc_shopping_cart">
+				<h2 class="widgettitle">Carrinho de Compras</h2>
+				<div id="sliding_cart" class="shopping-cart-wrapper">
+					<span class="cart_message" style="display: none; ">Você acabou de adicionar ao seu carrinho.</span>
+		    		<div class="shoppingcart">
+						<table>
+							<thead>
+								<tr>
+									<th id="product" colspan="2">Produto</th>
+									<th id="quantity">Qtd</th>
+									<th id="price">Preço</th>
+						            <th id="remove">&nbsp;</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td colspan="2" class="product-name"><a href="#">Como Melhorar seu Inglês em 18 dias</a></td>
+									<td>1</td>
+									<td><span class="pricedisplay">R$  14,90</span></td>
+				                    <td class="cart-widget-remove">
+				                    	<form action="" method="post" class="adjustform">
+											<input type="hidden" name="quantity" value="0">
+											<input type="hidden" name="key" value="0">
+											<input type="hidden" name="wpsc_update_quantity" value="true">
+											<input class="remove_button" type="submit">
+										</form>
+									</td>
+								</tr>	
+								<tr>
+									<td colspan="2" class="product-name"><a href="#">Aprenda Preposições de uma Vez por Todas</a></td>
+									<td>1</td>
+									<td><span class="pricedisplay">R$  14,90</span></td>
+				                    <td class="cart-widget-remove">
+					                    <form action="" method="post" class="adjustform">
+											<input type="hidden" name="quantity" value="0">
+											<input type="hidden" name="key" value="1">
+											<input type="hidden" name="wpsc_update_quantity" value="true">
+											<input class="remove_button" type="submit">
+										</form>
+									</td>
+								</tr>	
+							</tbody>
+							<tfoot>
+								<tr class="cart-widget-total">
+									<td class="cart-widget-count">2 itens</td>
+									<td class="pricedisplay checkout-total" colspan="4">
+										Total: <span class="pricedisplay">R$  29,80</span>
+									</td>
+								</tr>
+								<tr>
+									<td id="cart-widget-links" colspan="5">
+										<a target="_parent" href="#" title="Fechar Pedido" class="gocheckout">Fechar Pedido</a>
+										<form action="" method="post" class="wpsc_empty_the_cart">
+											<input type="hidden" name="wpsc_ajax_action" value="empty_cart">
+											<a target="_parent" href="#" class="emptycart" title="Esvaziar Seu Carrinho de Compras">Limpar carrinho</a>                                                                                    
+										</form>
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div><!--close cart-->		
+				</div>
+			</div>
+		<div id="text-4" class="widget widget_text">
+			<h2 class="widgettitle">Detalhes do Envio</h2>
+			<div class="textwidget">
+				<p>O livro será enviado assim que o pagamento for confirmado pelo sistema. 
+				Em caso de dúvidas entre em contato pelo email webstore@compremais.com</p>
+			</div>
+		</div>
+		<div id="text-3" class="widget widget_text">
+			<h2 class="widgettitle">Formas de Pagamento</h2>
+			<div class="textwidget"><p>Boleto online</p>
+				<div style="padding: 0 15px 15px 15px; float:left; width:100%;">
+					<span class="formas t16"></span>
+				</div>
+				<p>Cartão de Crédito</p>
+				<div style="padding: 0 15px 15px 15px; float:left; width:100%;">
+					<span class="formas"></span>
+					<span class="formas t1"></span>
+					<span class="formas t2"></span>
+					<span class="formas t3"></span>
+					<span class="formas t4"></span>
+					<span class="formas t5"></span>
+					<span class="formas t6"></span>
+					<span class="formas t7"></span>
+					<span class="formas t8"></span>
+					<span class="formas t9"></span>
+					<span class="formas t10"></span>
+				</div>
+				<p>Débito online / TEF</p>
+				<div style="padding: 0 15px 15px 15px; float:left; width:100%;">
+					<span class="formas t11"></span>
+					<span class="formas t12"></span>
+					<span class="formas t13"></span>
+					<span class="formas t14"></span>
+					<span class="formas t15"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div id="footer_wrapper">
+	    <div id="footer" class="inner">
+	        <p>Compre Mais Web Store © 2012</p>
+		</div>
+	</div>	
+</body>
+</html>

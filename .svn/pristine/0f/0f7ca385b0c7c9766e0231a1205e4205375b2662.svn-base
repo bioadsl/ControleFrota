@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- arquivo web.xml -->
+<web-app xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>ServletLivro</servlet-name>
+    <servlet-class>com.compremais.controller.ServletLivro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletLivro</servlet-name>
+    <url-pattern>/app</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,86 @@
+package br.com.compremais.model.DAO;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.compremais.model.Livro;
+
+public class LivroDAO {
+	
+	private static List<Livro> listaDeLivros;
+
+	public static List<Livro> getListaDeLivros(){
+		
+		listaDeLivros = new ArrayList<Livro>();
+		 
+		Livro l1 = new Livro();
+	
+		l1.setTitulo("Use a Cabeça! Servlets & JSP");
+		l1.setIdioma("Português");
+		l1.setIsbn("9788576082941");
+		l1.setNumPaginas(912);
+		l1.setValor(112.90);
+		l1.setSrcImg("img/servlets_jsp.png");
+		l1.setEditora("Alta Books");
+		l1.setAutor("Kathy Sierra & Bryan Basham");
+		l1.setDescricao("A preparação e estudo para o novo exame do J2EE 1.5, para a certificação Web "
+					+ "Component Developer (SCWCD). Use a Cabeça Servlets & JSP não fornece apenas uma "
+					+ "lista de assunto para memorização, ele guiará sua mente ao entendimento de fato "
+					+ "do assunto a ser estutado. Você ira aprender diretamente o que é servlets e JSPs "
+					+ "para que sejam entendidos de forma fãcil e rápida. Usando este livro você terá "
+					+ "idéia do novo esquema do exame mock, criado especialmente para similar a inteligência do teste.");
+	
+		Livro l2 = new Livro();
+		
+		l2.setTitulo("Scjp Sun Certified Programmer For Java 6");
+		l2.setIdioma("Inglês");
+		l2.setIsbn("0071591060");
+		l2.setNumPaginas(864);
+		l2.setValor(142.90);
+		l2.setSrcImg("img/scjp.png");
+		l2.setEditora("Mcgraw Hill");
+		l2.setAutor("Bert Bates, Kathy Sierra");
+		l2.setDescricao("The Best Fully Integrated Study System Available--Written by the Lead Developers "
+					+ "of Exam 310-065 With hundreds of practice questions and hands-on exercises, SCJP Sun "
+					+ "Certified Programmer for Java 6 Study Guide covers what you need to know--and shows "
+					+ "you how to prepare--for this challenging exam. 100% complete coverage of all "
+					+ "official objectives for exam 310-065 Exam Objective Highlights in every chapter "
+					+ "point out certification objectives to ensure you're focused on passing the exam "
+					+ "Exam Watch sections in every chapter highlight key exam topics covered Simulated "
+					+ "exam questions match the format, tone, topics, and difficulty of the real exam "
+					+ "Covers all SCJP exam topics, including: Declarations and Access Control · "
+					+ "Object Orientation · Assignments · Operators · Flow Control, Exceptions, and "
+					+ "Assertions · Strings, I/O, Formatting, and Parsing · Generics and Collections · "
+					+ "Inner Classes · Threads · Development");
+		
+		Livro l3 = new Livro();
+		
+		l3.setTitulo("Certificação Linux LPI");
+		l3.setIdioma("Português");
+		l3.setIsbn("9788576086444");
+		l3.setNumPaginas(520);
+		l3.setValor(89.90);
+		l3.setSrcImg("img/lpic.png");
+		l3.setEditora("Alta Books");
+		l3.setAutor("Adam Haeder, Stephen Addison Schneiter, Bruno Gomes Pessanha");
+		l3.setDescricao("A certificação de profissionais é uma tradição histórica em muitos "
+					+"campos, incluindo a medicina e o direito. À medida que pequenos sistemas de computadores e redes foram se "
+					+"proliferando ao longo da última década, a Novell e a Microsoft começaram a produzir exames de certificação, "
+					+"os quais se tornaram extremamente populares para as suas respectivas tecnologias de sistemas operacionais e "
+					+"de rede. Esses dois programas são frequentemente citados como os responsáveis pela popularização do mercado "
+					+"de certificações para produtos que, anteriormente, eram altamente especializados e relativamente raros. "
+					+"Esses programas se tornaram tão populares que uma enorme indústria de treinamento e preparação se formou "
+					+"para atender a um fluxo constante de novos candidatos às certificações. "
+					+"A implantação do Linux continua aumentando assim como a demanda por administradores do sistema Linux "
+					+"qualificados e certificados. Se você está a procura de uma certificação do Linux Professional Institute (LPI) "
+					+"focado no mercado, este guia atualizado o ajudará a se preparar para os, tecnicamente desafiadores, "
+					+"exames LPIC Nível 1 Exames 101 e 102.");
+	
+		
+		listaDeLivros.add(l1);
+		listaDeLivros.add(l2);
+		listaDeLivros.add(l3);
+		
+		return listaDeLivros;	
+	}
+}

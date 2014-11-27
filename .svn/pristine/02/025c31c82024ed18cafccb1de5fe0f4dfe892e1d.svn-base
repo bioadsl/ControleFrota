@@ -1,0 +1,7 @@
+// Show, Hide para a descrição do livro
+$(document).ready(function(){
+	$('.additional_description_link').click(function(){
+    	$(this).siblings('.additional_description').toggle(200);
+    	return false;
+	});
+});

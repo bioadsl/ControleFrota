@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Compre Mais | Web Store</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+		<link rel="shortcut icon" href="img/compre_mais_fav.png" type="image/x-icon">
+		<script type="text/javascript" src="js/script.js"></script>
+</head>
+	<body cz-shortcut-listen="true">
+		<div id="header_wrapper">
+	    <div id="header" class="inner">
+            <h1>
+                <a href="." alt="Compre Mais Web Store">Compre Mais Web Store</a>
+            </h1>
+            <div class="slogan">
+                <p>A loja do estudante de TI</p>
+            </div>
+            <ul class="menu">
+                <li><a href="#" rel="nofollow"><span class="icon cursos"></span>Produtos</a></li>
+                <li><a href="#" rel="nofollow"><span class="icon store"></span>STORE</a></li>
+            </ul>
+	    </div>
+	</div>
+		<div id="menu_wrapper"></div> 
+		<div id="inner" class="inner">
+	    	<div id="content_wrapper">
+				<div id="content">
+					<div class="title"></div>
+					<div class="entry">
+						<div id="default_products_page_container" class="wrap wpsc_container">
+							<div class="wpsc_default_product_list">
+								<div class="default_product_display product_view_9 ebooks-de-ingles group">
+									<h2 class="prodtitle entry-title">
+										<a class="wpsc_product_title" href="#">Como Melhorar seu Inglês em 18 dias</a>
+									</h2>
+									<div class="imagecol" style="width: 110;" id="imagecol_9">
+										<a rel="Como Melhorar seu Inglês em 18 dias" class="preview_link" href="#">
+											<img class="product_image" id="product_image_9" alt="Como Melhorar seu Inglês em 18 dias" title="Como Melhorar seu Inglês em 18 dias" src="img/capa_18-dias-110x170.png">
+										</a>
+									</div>
+									<!--close imagecol-->
+									<div class="productcol" style="margin-left: 130px;">
+										<div class="wpsc_description">
+											<p>
+												<strong>Formato: PDF</strong>&nbsp;– R$ 14,90<br> <strong>Indicado
+												para:</strong>&nbsp;Nível Básico e Intermediário<br> <strong>Páginas:</strong>&nbsp;57
+												pág.<br> <strong>Versão:</strong>&nbsp;2<br> <strong>Autor:</strong>&nbsp;Adir Ferreira
+											</p>
+										</div>
+										<!--close wpsc_description-->
+										<div class="additional_description_container">
+											<img class="additional_description_button" src="img/icon_window_expand.gif" alt="Additional Description">
+											<a href="#" class="additional_description_link">Mais Detalhes</a>
+											<div class="additional_description">
+												<p>
+													<strong>Descrição:</strong>&nbsp;<em>Todos nós que
+														estudamos inglês queremos melhorar nosso desempenho e ter
+														mais fluência e com este intuito apresento este e-book com
+														18 dicas valiosas para você aperfeiçoar suas habilidades de
+														escrita, fala, escrita e audição. O e-book serve como um
+														apoio ao seu estudo numa escola regular de idiomas ou como
+														autodidata.</em><br><br> 
+													<img class="product_image" id="product_image_9" alt="Como Melhorar seu Inglês em 18 dias" title="Como Melhorar seu Inglês em 18 dias" src="img/Preview_Como_Melhorar_seu_Ingles_em_18_Dias.jpg">
+												</p>
+											</div>
+											<!--close additional_description-->
+										</div>
+										<!--close additional_description_container-->
+										<form class="product_form" enctype="multipart/form-data" action="#" method="post" name="product_9" id="product_9">
+											<!-- THIS IS THE QUANTITY OPTION MUST BE ENABLED FROM ADMIN SETTINGS -->
+											<div class="wpsc_product_price">
+												<p class="pricedisplay product_9">Preço: <span id="product_price_9" class="currentprice pricedisplay">R$ 14,90</span></p>
+												<!-- multi currency code -->
+											</div>
+											<!--close wpsc_product_price-->
+											<input type="hidden" value="add_to_cart" name="wpsc_ajax_action"> <input type="hidden" value="9" name="product_id">
+											<!-- END OF QUANTITY OPTION -->
+											<div class="wpsc_buy_button_container">
+												<div class="wpsc_loading_animation">
+													<img title="Loading" alt="Loading" src="img/indicator.gif"> Atualizando carrinho…
+												</div>
+												<!--close wpsc_loading_animation-->
+												<input type="submit" value="Adicionar ao Carrinho" name="Buy" class="wpsc_buy_button" id="product_9_submit_button">
+											</div>
+											<!--close wpsc_buy_button_container-->
+											<div class="entry-utility wpsc_product_utility"></div>
+										</form>
+										<!--close product_form-->
+									</div>
+									<!--close productcol-->
+								</div>
+								<!--close default_product_display-->
+								
+								
+								
+								<div
+									class="default_product_display product_view_13 ebooks-de-ingles group">
+									<h2 class="prodtitle entry-title">
+	
+										<a class="wpsc_product_title"
+											href="#">Aprenda Preposições de uma Vez por Todas</a>
+									</h2>
+									<div class="imagecol" style="width: 110;" id="imagecol_13">
+										<a rel="Aprenda Preposições de uma Vez por Todas"
+											class="preview_link"
+											href="#">
+											<img class="product_image" id="product_image_13"
+											alt="Aprenda Preposições de uma Vez por Todas"
+											title="Aprenda Preposições de uma Vez por Todas"
+											src="img/capa_preposicoes-110x170.png">
+	
+										</a>
+	
+									</div>
+									<!--close imagecol-->
+									<div class="productcol" style="margin-left: 130px;">
+	
+	
+	
+	
+	
+										<div class="wpsc_description">
+											<p>
+												<strong>Formato: PDF</strong>&nbsp;– R$ 14,90<br> <strong>Indicado
+													para:</strong>&nbsp;Todos os níveis<br> <strong>Páginas:</strong>&nbsp;121
+												pág.<br> <strong>Versão:</strong>&nbsp;2<br> <strong>Autor:</strong>&nbsp;Adir
+												Ferreira
+											</p>
+										</div>
+										<!--close wpsc_description-->
+	
+										<div class="additional_description_container">
+	
+											<img class="additional_description_button"
+												src="img/icon_window_expand.gif"
+												alt="Additional Description"><a
+												href="#"
+												class="additional_description_link">Mais Detalhes </a>
+											<div class="additional_description">
+												<p>
+													<strong>Descrição:</strong>&nbsp;<em>Este e-book traz
+														as preposições mais comuns da língua inglesa, com a
+														explicação de seu uso e exemplos traduzidos retirados do
+														inglês real: jornais, revistas, sites de notícias, etc. Não
+														utilizamos termos técnicos difíceis, tornando assim o
+														material acessível inclusive para alunos iniciantes.</em> <br>
+													<br> <img class="product_image" id="product_image_9"
+														alt="Aprenda Preposições de uma Vez por Todas"
+														title="Aprenda Preposições de uma Vez por Todas"
+														src="img/Aprenda_Preposicoes_de_uma_Vez_por_Todas.jpg">
+												</p>
+											</div>
+											<!--close additional_description-->
+										</div>
+										<!--close additional_description_container-->
+	
+	
+	
+										<form class="product_form" enctype="multipart/form-data"
+											action="http://store.forumdeidiomas.com.br/products-page/ebooks-de-ingles/aprenda-preposicoes-de-uma-vez-por-todas/"
+											method="post" name="product_13" id="product_13">
+	
+											<!-- THIS IS THE QUANTITY OPTION MUST BE ENABLED FROM ADMIN SETTINGS -->
+	
+											<div class="wpsc_product_price">
+												<p class="pricedisplay product_13">
+													Preço: <span id="product_price_13"
+														class="currentprice pricedisplay">R$ 14,90</span>
+												</p>
+	
+												<!-- multi currency code -->
+	
+	
+											</div>
+											<!--close wpsc_product_price-->
+											<input type="hidden" value="add_to_cart"
+												name="wpsc_ajax_action"> <input type="hidden"
+												value="13" name="product_id">
+	
+											<!-- END OF QUANTITY OPTION -->
+											<div class="wpsc_buy_button_container">
+												<div class="wpsc_loading_animation">
+													<img title="Loading" alt="Loading"
+														src="img/indicator.gif"> Atualizando
+													carrinho…
+												</div>
+												<!--close wpsc_loading_animation-->
+												<input type="submit" value="Adicionar ao Carrinho" name="Buy"
+													class="wpsc_buy_button" id="product_13_submit_button">
+											</div>
+											<!--close wpsc_buy_button_container-->
+											<div class="entry-utility wpsc_product_utility"></div>
+										</form>
+										<!--close product_form-->
+									</div>
+									<!--close productcol-->
+								</div>
+								<!--close default_product_display-->
+								<div
+									class="default_product_display product_view_76 ebooks-de-ingles group">
+									<h2 class="prodtitle entry-title">
+										<a class="wpsc_product_title"
+											href="#">Gírias &amp; Expressões dos Seriados II (com áudio)</a>
+									</h2>
+									<div class="imagecol" style="width: 110;" id="imagecol_76">
+										<a rel="Gírias &amp; Expressões dos Seriados II (com áudio)"
+											class="preview_link"
+											href="#">
+											<img class="product_image" id="product_image_76"
+											alt="Gírias &amp; Expressões dos Seriados II (com áudio)"
+											title="Gírias &amp; Expressões dos Seriados II (com áudio)"
+											src="img/capa_mini-110x170.jpg">
+										</a>
+									</div>
+									<!--close imagecol-->
+									<div class="productcol" style="margin-left: 130px;">
+										<div class="wpsc_description">
+											<p>
+												<strong>Formato: PDF + Áudio MP3</strong>&nbsp;– R$ 14,90<br>
+												<strong>Indicado para:</strong>&nbsp;Nível Intermediário e
+												Avançado<br> <strong>Páginas:</strong>&nbsp;91 pág.<br>
+												<strong>Pronúncia:</strong>&nbsp;Todas as expressões em áudio
+												(mp3)<br> <strong>Autores:</strong>&nbsp;Adir Ferreira e
+												Tim Barrett (áudio)
+											</p>
+										</div>
+										<!--close wpsc_description-->
+										<div class="additional_description_container">
+											<img class="additional_description_button"
+												src="img/icon_window_expand.gif"
+												alt="Additional Description"><a
+												href="#"
+												class="additional_description_link">Mais Detalhes </a>
+											<div class="additional_description">
+												<p>
+													<strong>Descrição:</strong>&nbsp;<em>Este é o segundo
+														volume da série Gírias e Expressões dos Seriados. Como no
+														primeiro volume, você encontrará gírias e expressões
+														idiomáticas do inglês americano retirado de séries
+														americanas como True Blood, Two and a Half Men, The Big
+														Bang Theory, Happy Endings, Workaholics, entre outras. As
+														expressões estão em ordem alfabética e tentei dar a
+														tradução mais próxima ao português coloquial falado no
+														Brasil. Incluí expressões e gírias que geralmente não estão
+														em dicionários e glossários especializados e por isso
+														apresentam mais dificuldades para o estudante de inglês
+														brasileiro. O diferencial deste material é também o áudio,
+														feito pelo Tim Barrett, americano que vive com sua família
+														em Jundiaí (SP). Tim lê os verbetes e os exemplos em
+														inglês, assim propiciando a prática da audição e leitura.</em> <br>
+													<br> <img class="product_image" id="product_image_9"
+														alt="Gírias &amp; Expressões dos Seriados II (com áudio)"
+														title="Gírias &amp; Expressões dos Seriados II (com áudio)"
+														src="./modelo_files/Preview_Girias_Expressoes_Seriados2.png">
+												</p>
+											</div>
+											<!--close additional_description-->
+										</div>
+										<!--close additional_description_container-->
+										<form class="product_form" enctype="multipart/form-data"
+											action="http://store.forumdeidiomas.com.br/products-page/ebooks-de-ingles/girias-expressoes-dos-seriados-ii-com-audio/"
+											method="post" name="product_76" id="product_76">
+											<!-- THIS IS THE QUANTITY OPTION MUST BE ENABLED FROM ADMIN SETTINGS -->
+											<div class="wpsc_product_price">
+												<p class="pricedisplay product_76">
+													Preço: <span id="product_price_76"
+														class="currentprice pricedisplay">R$ 14,90</span>
+												</p>
+												<!-- multi currency code -->
+											</div>
+											<!--close wpsc_product_price-->
+											<input type="hidden" value="add_to_cart"
+												name="wpsc_ajax_action"> <input type="hidden"
+												value="76" name="product_id">
+											<!-- END OF QUANTITY OPTION -->
+											<div class="wpsc_buy_button_container">
+												<div class="wpsc_loading_animation">
+													<img title="Loading" alt="Loading"
+														src="./modelo_files/indicator.gif"> Atualizando
+													carrinho…
+												</div>
+												<!--close wpsc_loading_animation-->
+												<input type="submit" value="Adicionar ao Carrinho" name="Buy"
+													class="wpsc_buy_button" id="product_76_submit_button">
+											</div>
+											<!--close wpsc_buy_button_container-->
+											<div class="entry-utility wpsc_product_utility"></div>
+										</form>
+										<!--close product_form-->
+									</div>
+									<!--close productcol-->
+								</div>
+								<!--close default_product_display-->
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="sidebar">
+				<div id="wpsc_shopping_cart-4" class="widget widget_wpsc_shopping_cart">
+					<h2 class="widgettitle">Carrinho de Compras</h2>
+					<div id="sliding_cart" class="shopping-cart-wrapper">
+			    		<div class="shoppingcart">
+							<table>
+								<thead>
+									<tr>
+										<th id="product" colspan="2">Produto</th>
+										<th id="quantity">Qtd</th>
+										<th id="price">Preço</th>
+							            <th id="remove">&nbsp;</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td colspan="2" class="product-name"><a href="#">Como Melhorar seu Inglês em 18 dias</a></td>
+										<td>1</td>
+										<td><span class="pricedisplay">R$  14,90</span></td>
+					                    <td class="cart-widget-remove">
+					                    	<form action="" method="post" class="adjustform">
+												<input type="hidden" name="quantity" value="0">
+												<input type="hidden" name="key" value="0">
+												<input type="hidden" name="wpsc_update_quantity" value="true">
+												<input class="remove_button" type="submit">
+											</form>
+										</td>
+									</tr>	
+									<tr>
+										<td colspan="2" class="product-name"><a href="#">Aprenda Preposições de uma Vez por Todas</a></td>
+										<td>1</td>
+										<td><span class="pricedisplay">R$  14,90</span></td>
+					                    <td class="cart-widget-remove">
+						                    <form action="" method="post" class="adjustform">
+												<input type="hidden" name="quantity" value="0">
+												<input type="hidden" name="key" value="1">
+												<input type="hidden" name="wpsc_update_quantity" value="true">
+												<input class="remove_button" type="submit">
+											</form>
+										</td>
+									</tr>	
+								</tbody>
+								<tfoot>
+									<tr class="cart-widget-total">
+										<td class="cart-widget-count">2 itens</td>
+										<td class="pricedisplay checkout-total" colspan="4">
+											Total: <span class="pricedisplay">R$  29,80</span><br>
+											<small>excluding shipping and tax</small>
+										</td>
+									</tr>
+									<tr>
+										<td id="cart-widget-links" colspan="5">
+											<a target="_parent" href="#" title="Fechar Pedido" class="gocheckout">Fechar Pedido</a>
+											<form action="" method="post" class="wpsc_empty_the_cart">
+												<input type="hidden" name="wpsc_ajax_action" value="empty_cart">
+												<a target="_parent" href="#" class="emptycart" title="Esvaziar Seu Carrinho de Compras">Limpar carrinho</a>                                                                                    
+											</form>
+										</td>
+									</tr>
+								</tfoot>
+							</table>
+						</div><!--close cart-->		
+					</div>
+				</div>
+				<div id="text-2" class="widget widget_text">
+					<h2 class="widgettitle">eBooks do Compre Mais</h2>
+					<div class="textwidget">
+						<p>Nós temos o prazer de anunciar a nossa coleção de livros eletrônicos (e-books). <strong>Combinamos o melhor da tecnologia e design com o melhor do ensino de TI.</strong></p>
+						<p>Nossa proposta é disponibilizar conteúdo feito especialmente para os alunos de TI, abrangendo uma ampla gama de tópicos.</p>
+					</div>
+				</div>
+				<div id="text-4" class="widget widget_text">
+					<h2 class="widgettitle">Detalhes do Envio</h2>
+					<div class="textwidget">
+						<p>O e-book é enviado automaticamente por email assim que o pagamento é confirmado pelo sistema. Em caso de dúvidas entre em contato pelo email ebooks@compremais.com.</p>
+					</div>
+				</div>
+				<div id="text-3" class="widget widget_text">
+				<h2 class="widgettitle">Formas de Pagamento</h2>
+				<div class="textwidget"><p>Boleto online</p>
+					<div style="padding: 0 15px 15px 15px; float:left; width:100%;">
+						<span class="formas t16"></span>
+					</div>
+					<p>Cartão de Crédito</p>
+					<div style="padding: 0 15px 15px 15px; float:left; width:100%;">
+						<span class="formas"></span>
+						<span class="formas t1"></span>
+						<span class="formas t2"></span>
+						<span class="formas t3"></span>
+						<span class="formas t4"></span>
+						<span class="formas t5"></span>
+						<span class="formas t6"></span>
+						<span class="formas t7"></span>
+						<span class="formas t8"></span>
+						<span class="formas t9"></span>
+						<span class="formas t10"></span>
+					</div>
+					<p>Débito online / TEF</p>
+					<div style="padding: 0 15px 15px 15px; float:left; width:100%;">
+					<span class="formas t11"></span>
+					<span class="formas t12"></span>
+					<span class="formas t13"></span>
+					<span class="formas t14"></span>
+					<span class="formas t15"></span>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div id="footer_wrapper">
+		    <div id="footer" class="inner">
+		        <p>Compre Mais Web Store © 2012</p>
+			</div>
+		</div>	
+	</body>
+</html>

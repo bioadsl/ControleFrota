@@ -1,0 +1,37 @@
+package br.com.compremais.model;
+
+import java.text.DecimalFormat;
+
+public class ItemCarrinho {
+	
+	private Livro livro;
+	private int quantidade;
+
+	public ItemCarrinho(Livro livro) {
+		this.livro = livro;
+		this.quantidade = 1;
+	}
+
+	public Livro getLivro() {
+		return livro;
+	}
+
+	public int getQuantidade() {
+		return quantidade;
+	}
+	
+	public void setQuantidade(int quantidade) {
+		if(quantidade != 0){
+			this.quantidade = quantidade;
+		}
+	}
+	
+	public void addQuantidade() {
+		this.quantidade++;
+	}
+	
+	public String getValorItem() {
+		DecimalFormat df = new DecimalFormat("#,###.##");
+		return df.format(livro.getValor() * quantidade);
+	}
+}

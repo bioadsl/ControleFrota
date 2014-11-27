@@ -1,0 +1,11 @@
+<!-- arquivo web.xml -->
+<web-app>
+	<servlet>
+		<servlet-name>MinhaServlet</servlet-name> <!-- interno -->
+		<servlet-class>MinhaServlet</servlet-class> <!-- real -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MinhaServlet</servlet-name> <!-- interno -->
+		<url-pattern>/minhaServlet</url-pattern><!-- externo -->
+	</servlet-mapping>
+</web-app>

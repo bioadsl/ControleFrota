@@ -1,0 +1,150 @@
+<%@ page import="br.com.compremais.model.Livro" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Compre Mais | Web Store</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+	<link rel="shortcut icon" href="img/compre_mais_fav.png" type="image/x-icon">
+	<script language="javascript" type="text/javascript" src="js/jquery-1.8.2.js"></script>
+	<script language="javascript" type="text/javascript" src="js/jquery-ui.js"></script>
+	<script language="javascript" type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="header_wrapper">
+	    <div id="header" class="inner">
+	           <h1>
+	               <a href="." alt="Compre Mais Web Store">Compre Mais Web Store</a>
+	           </h1>
+	           <div class="slogan">
+	               <p>A loja do estudante de TI</p>
+	           </div>
+	           <ul class="menu">
+	               <li><a href="#" rel="nofollow"><span class="icon cursos"></span>Produtos</a></li>
+	               <li><a href="#" rel="nofollow"><span class="icon store"></span>STORE</a></li>
+	           </ul>
+	    </div>
+	</div>
+	<div id="menu_wrapper"></div> 
+	<div id="inner" class="inner">
+    	<div id="content_wrapper">
+			<div id="content">
+				<div class="title"></div>
+				<div class="entry">
+					<div id="default_products_page_container" class="wrap wpsc_container">
+						<div class="wpsc_default_product_list">
+							<%
+								java.util.List<Livro> listaDeLivros = (java.util.List<Livro>) request.getAttribute("listaDeLivros");
+								
+								for(Livro livro : listaDeLivros){
+							%>								
+							<div class="default_product_display group">
+								<h2 class="prodtitle entry-title">
+									<a class="wpsc_product_title" href="#"><%= livro.getTitulo() %></a>
+								</h2>
+								<div class="imagecol" style="width: 110;" id="imagecol_9">
+									<a rel="<%= livro.getTitulo() %>" class="preview_link" href="#">
+										<img class="product_image" id="product_image_<%= livro.getIsbn() %>" alt="<%= livro.getTitulo() %>" title="<%= livro.getTitulo() %>" src="<%= livro.getSrcImg() %>">
+									</a>
+								</div><!--close imagecol-->
+								<div class="productcol" style="margin-left: 130px;">
+									<div class="wpsc_description">
+										<p>
+											<strong>ISBN</strong>&nbsp;<%= livro.getIsbn() %><br>
+											<strong>Idioma:</strong>&nbsp;<%= livro.getIdioma() %><br>
+											<strong>Páginas:</strong>&nbsp;<%= livro.getNumPaginas() %> pág.<br>
+											<strong>Editora:</strong>&nbsp;<%= livro.getEditora() %><br>
+											<strong>Autor:</strong>&nbsp;<%= livro.getAutor() %>
+										</p>
+									</div><!--close wpsc_description-->
+									<div class="additional_description_container">
+										<img class="additional_description_button" src="img/icon_window_expand.gif" alt="Additional Description">
+										<a href="#" class="additional_description_link">Mais Detalhes</a>
+										<div class="additional_description">
+											<p>
+												<strong>Descrição:</strong>&nbsp;<em><%= livro.getDescricao() %></em>
+											</p>
+										</div><!--close additional_description-->
+									</div><!--close additional_description_container-->
+									<form class="product_form" action="carrinho" method="post" name="<%= livro.getIsbn() %>" id="<%= livro.getIsbn() %>">
+										<!-- THIS IS THE QUANTITY OPTION MUST BE ENABLED FROM ADMIN SETTINGS -->
+										<div class="wpsc_product_price">
+											<p class="pricedisplay">Preço: <span class="currentprice pricedisplay">R$ <%= livro.getValor() %></span></p>
+											<!-- multi currency code -->
+										</div><!--close wpsc_product_price-->
+										<input type="hidden" name="operacao" value="addItem" />
+										<input type="hidden" name="idProduto" value="<%= livro.getIsbn() %>" />
+										<!-- END OF QUANTITY OPTION -->
+										<div class="wpsc_buy_button_container">
+											<div class="wpsc_loading_animation">
+												<img title="Loading" alt="Loading" src="img/indicator.gif"> Atualizando carrinho…
+											</div><!--close wpsc_loading_animation-->
+											<input type="submit" value="Adicionar ao Carrinho" name="Buy" class="wpsc_buy_button" title="Ao clicar aqui você adiciona uma unidade deste item ao seu carrinho." />
+										</div><!--close wpsc_buy_button_container-->
+										<div class="entry-utility wpsc_product_utility"></div>
+									</form><!--close product_form-->
+								</div><!--close productcol-->
+							</div><!--close default_product_display-->
+							<% 
+								}
+							%>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="sidebar">
+			<div id="wpsc_shopping_cart-4" class="widget widget_wpsc_shopping_cart">
+				<h2 class="widgettitle">Carrinho de Compras</h2>
+				<div id="sliding_cart" class="shopping-cart-wrapper">
+					<%@ include file="carrinho.jsp" %>
+				</div>
+			</div>
+			<div id="text-4" class="widget widget_text">
+				<h2 class="widgettitle">Detalhes do Envio</h2>
+				<div class="textwidget">
+					<p>O livro será enviado assim que o pagamento for confirmado pelo sistema. 
+					Em caso de dúvidas entre em contato pelo email webstore@compremais.com</p>
+				</div>
+			</div>
+			<div id="text-3" class="widget widget_text">
+				<h2 class="widgettitle">Formas de Pagamento</h2>
+				<div class="textwidget"><p>Boleto online</p>
+					<div style="padding: 0 15px 15px 15px; float:left; width:100%;">
+						<span class="formas t16"></span>
+					</div>
+					<p>Cartão de Crédito</p>
+					<div style="padding: 0 15px 15px 15px; float:left; width:100%;">
+						<span class="formas"></span>
+						<span class="formas t1"></span>
+						<span class="formas t2"></span>
+						<span class="formas t3"></span>
+						<span class="formas t4"></span>
+						<span class="formas t5"></span>
+						<span class="formas t6"></span>
+						<span class="formas t7"></span>
+						<span class="formas t8"></span>
+						<span class="formas t9"></span>
+						<span class="formas t10"></span>
+					</div>
+					<p>Débito online / TEF</p>
+					<div style="padding: 0 15px 15px 15px; float:left; width:100%;">
+						<span class="formas t11"></span>
+						<span class="formas t12"></span>
+						<span class="formas t13"></span>
+						<span class="formas t14"></span>
+						<span class="formas t15"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer_wrapper">
+	    <div id="footer" class="inner">
+	        <p>Compre Mais Web Store &copy; 2012</p>
+		</div>
+	</div>	
+</body>
+</html>

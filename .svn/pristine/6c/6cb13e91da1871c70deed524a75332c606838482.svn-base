@@ -1,0 +1,126 @@
+<%@ page import="br.com.compremais.model.Livro"%>
+<%@ page import="br.com.compremais.model.ItemCarrinho"%>
+<%@ page import="br.com.compremais.model.CarrinhoDeCompras"%>
+<%@ page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%
+	CarrinhoDeCompras cart = (CarrinhoDeCompras) session.getAttribute("carrinhoDeCompras");
+	List<ItemCarrinho> itensCarrinho = cart.getItensCarrinho();
+	
+	if(itensCarrinho.size() < 1){
+		response.sendRedirect(".");
+	}
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Compre Mais | Web Store</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+	<link rel="shortcut icon" href="img/compre_mais_fav.png" type="image/x-icon">
+	<script language="javascript" type="text/javascript" src="js/jquery-1.8.2.js"></script>
+	<script language="javascript" type="text/javascript" src="js/jquery-ui.js"></script>
+	<script language="javascript" type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="header_wrapper">
+	    <div id="header" class="inner">
+	           <h1>
+	               <a href="." title="Compre Mais Web Store">Compre Mais Web Store</a>
+	           </h1>
+	           <div class="slogan">
+	               <p>A loja do estudante de TI</p>
+	           </div>
+	           <ul class="menu">
+	               <li><a href="#" rel="nofollow"><span class="icon cursos"></span>Produtos</a></li>
+	               <li><a href="#" rel="nofollow"><span class="icon store"></span>STORE</a></li>
+	           </ul>
+	    </div>
+	</div>
+	<div id="inner" class="inner">
+		<div id="content_wrapper" class="cont_checkout" style="margin-left: 0px;">
+			<div id="content" style="margin-left: 0px;">
+				<div class="entry">
+					<div id="checkout_page_container">
+						<h3>Por favor confira seu pedido</h3>
+						<table class="checkout_cart">
+							<tbody>
+								<tr class="header">
+									<th colspan="2">Produto</th>
+									<th>Quantidade</th>
+									<th>Preço</th>
+									<th>Total</th>
+									<th>&nbsp;</th>
+								</tr>
+								<%
+									for(ItemCarrinho itemCarrinho : itensCarrinho){
+										Livro livro = itemCarrinho.getLivro();		
+								%>
+								<tr class="product_row product_row_0 alt">
+									<td class="firstcol wpsc_product_image wpsc_product_image_0">
+										<img class="product_image" alt="<%= livro.getTitulo() %>" title="<%= livro.getTitulo() %>" src="<%= livro.getSrcImg() %>">
+									</td>
+									<td class="wpsc_product_name wpsc_product_name_0"><a href="#"><%= livro.getTitulo() %></a></td>
+									<td class="wpsc_product_quantity wpsc_product_quantity_0 bt_checkout">
+										<form action="carrinho" method="post" class="adjustform qty">
+											<input type="text" name="quantidade" size="2" value="<%= itemCarrinho.getQuantidade() %>" />
+											<input type="hidden" name="idProduto" value="<%= livro.getIsbn() %>">
+											<input type="hidden" name="operacao" value="updateQtde">
+											<input type="hidden" name="urlDestino" value="checkout.jsp">
+											<input type="submit" value="Atualizar" name="submit">
+										</form>
+									</td>
+									<td><span class="pricedisplay">R$ <%= livro.getValor() %></span></td>
+									<td class="wpsc_product_price wpsc_product_price_0">
+										<span class="pricedisplay">R$ <%= itemCarrinho.getValorItem() %></span>
+									</td>
+									
+									
+									<td class="wpsc_product_remove wpsc_product_remove_0 bt_checkout">
+										<form action="carrinho" method="post" class="adjustform remove">
+											<input type="hidden" name="idProduto" value="<%= livro.getIsbn() %>">
+											<input type="hidden" name="operacao" value="removeItem">
+											<input type="hidden" name="urlDestino" value="checkout.jsp">
+											<input type="submit" value="Remover" name="submit">
+										</form>
+									</td>
+								</tr>
+								<% } %>
+							</tbody>
+						</table><!-- cart contents table close -->
+						<div id="wpsc_shopping_cart_container">
+							<form class="wpsc_checkout_forms" action="checkout" method="post">
+								<table class="wpsc_checkout_table table-4">
+									<tbody>
+										<tr class="total_price">
+											<td class="wpsc_totals">Preço Total:</td>
+											<td class="wpsc_totals">
+												<span id="checkout_total" class="pricedisplay checkout-total">
+													<span class="pricedisplay">R$ <%= cart.getValorTotal() %></span>
+												</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="wpsc_make_purchase">
+									<span>
+										<input type="hidden" name="operacao" value="fecharCompra" />
+										<input type="submit" value="Comprar" name="submit" class="make_purchase wpsc_buy_button" />
+									</span>
+								</div>
+								<div class="clear"></div>
+							</form>
+						</div>
+					</div><!--close checkout_page_container-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer_wrapper">
+	    <div id="footer" class="inner">
+	        <p>Compre Mais Web Store &copy; 2012</p>
+		</div>
+	</div>	
+</body>
+</html>

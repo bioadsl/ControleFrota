@@ -1,0 +1,60 @@
+<%@ page import="java.util.List"%>
+<%@ page import="br.com.compremais.model.CarrinhoDeCompras"%>
+<%@ page import="br.com.compremais.model.ItemCarrinho"%>
+<%@ page import="br.com.compremais.model.Livro" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%
+	CarrinhoDeCompras cart = (CarrinhoDeCompras) session.getAttribute("carrinhoDeCompras");
+	List<ItemCarrinho> itensCarrinho = cart.getItensCarrinho();
+	String msg = (String)request.getAttribute("mensagem");
+	
+	if(msg != null){
+%>
+<span class="cart_message"><%= msg %></span>
+<%
+	}
+	if(itensCarrinho.isEmpty()){
+%>
+<p class="empty">Seu carrinho de compras está vazio.<br /></p>
+<%	}else{ %>
+<div id="carrinhoDeCompras" class="shoppingcart">
+	<table>
+		<thead>
+			<tr>
+				<th id="product" colspan="2">Produto</th>
+				<th id="quantity">Qtd</th>
+				<th id="price">Preço</th>
+			</tr>
+		</thead>
+		<tbody>
+			<%
+			
+				for(ItemCarrinho itemCarrinho : itensCarrinho){
+					Livro livro = itemCarrinho.getLivro();		
+			%>	
+			<tr>
+				<td colspan="2" class="product-name"><%= livro.getTitulo() %></td>
+				<td><%= itemCarrinho.getQuantidade() %></td>
+				<td><span class="pricedisplay">R$  <%= livro.getValor() %></span></td>
+			</tr>
+			<%
+				}
+			%>
+		</tbody>
+		<tfoot>
+			<tr class="cart-widget-total">
+				<td class="cart-widget-count"><%= cart.getTotalItens() %> Qtd. itens</td>
+				<td class="pricedisplay checkout-total" colspan="4">
+					Total: <span class="pricedisplay">R$  <%= cart.getValorTotal() %></span>
+				</td>
+			</tr>
+			<tr>
+				<td id="cart-widget-links" colspan="5">
+					<a href="checkout.jsp" title="Realizar Checkout" class="gocheckout">Fechar Pedido</a>
+					<a href="#" class="emptycart" title="Remover todos os itens.">Esvaziar carrinho</a>
+				</td>
+			</tr>
+		</tfoot>
+	</table>
+</div><!--close cart-->
+<%	} %>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- arquivo web.xml -->
+<web-app xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>ServletLivro</servlet-name>
+    <servlet-class>br.com.compremais.controller.ServletLivro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletLivro</servlet-name>
+    <url-pattern>/index.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ServletCarrinho</servlet-name>
+    <servlet-class>br.com.compremais.controller.ServletCarrinho</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletCarrinho</servlet-name>
+    <url-pattern>/carrinho</url-pattern>
+  </servlet-mapping>
+</web-app>
